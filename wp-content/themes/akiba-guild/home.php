@@ -1,12 +1,4 @@
 <?php
-/**
- * The template for displaying archive pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package akiba-guild
- */
-
 get_header(); ?>   
   <div id="main-banner">
       <div class="row">
@@ -23,11 +15,12 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-12">
           <div class="title">
-            <?php the_archive_title( '<h3>', '</h3>' ); ?>
+            <h3>ブログ</h3>
           </div><!-- title -->
           <div class="blog_content">
             <?php
-              while ( have_posts() ) : the_post(); 
+              query_posts('category_name=blog');           
+              if ( have_posts() ) : while ( have_posts() ) : the_post(); 
             ?>
             <div class="row">
               <div class="wrapper">
@@ -54,7 +47,7 @@ get_header(); ?>
                 </div><!-- right_content -->
               </div><!-- wrapper -->
             </div>
-            <?php endwhile; wp_reset_query(); ?> 
+            <?php endwhile; endif; wp_reset_query(); ?> 
           </div><!-- blog_content -->
         </div><!-- col-sm-12 -->
       </div><!-- row -->

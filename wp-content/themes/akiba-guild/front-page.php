@@ -98,7 +98,9 @@ get_header(); ?>
                     <h6>Part <?php echo $cnt; ?></h6>
                   </div><!-- left_content -->
                   <div class="right_content">
-                    <h6><?php echo get_sub_field('build-group-charm_title'); ?></h6>
+                    <a href="<?php echo get_sub_field('build-group-charm_link'); ?>">
+                      <h6><?php echo get_sub_field('build-group-charm_title'); ?></h6>
+                    </a>
                   </div><!-- right_content -->
                 </div><!-- wrapper -->
               </div>
@@ -121,7 +123,9 @@ get_header(); ?>
                     <h6>Part <?php echo $cnt; ?></h6>
                   </div><!-- left_content -->
                   <div class="right_content">
-                    <h6><?php echo get_sub_field('build-group-charm_title'); ?></h6>
+                    <a href="<?php echo get_sub_field('build-group-charm_link'); ?>">
+                      <h6><?php echo get_sub_field('build-group-charm_title'); ?></h6>
+                    </a>
                   </div><!-- right_content -->
                 </div><!-- wrapper -->
               </div><!-- col-sm-6 -->
@@ -220,7 +224,7 @@ get_header(); ?>
                 endwhile; endif; wp_reset_query();
               ?>
             </div>
-            <a href="<?php bloginfo('url'); ?>/category/blog" class="text-center">
+            <a href="<?php bloginfo('url'); ?>/blog" class="text-center">
               <button class="btn">Show more<span class="arrow"></span></button>
             </a>
           </div><!-- row -->

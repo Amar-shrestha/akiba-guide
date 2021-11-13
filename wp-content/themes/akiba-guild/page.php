@@ -15,24 +15,42 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', 'page' );
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
+<div id="main-banner">
+    <div class="row">
+      <div class="col-sm-12"> 
+        <div class="banner_bg">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/banner_bg2.png" alt="">
+        </div>
+      </div><!--col-sm-12-->
+    </div><!--row-->
+</div><!--main-banner-->
 
 <?php
-get_sidebar();
-get_footer();
+	while ( have_posts() ) :
+		the_post(); ?>
+
+		<div id="blog_single">
+		  <div class="container-sm">
+		    <div class="row">
+		      <div class="col-sm-12">
+		        <div class="title">
+		          <h3><?php echo get_the_title(); ?></h3>
+		        </div><!-- title -->
+		        <div class="blog_wrap">
+		          <!-- <div class="blog_box">
+		            <h6>ブログ </h6>
+		          </div> -->
+		          <div class="blog_content">
+		            <div class="right_content">
+		              <p><span class="bold"><?php echo get_the_author(); ?></span> &bull;  <span class="grey"><?php the_time('F j, Y'); ?></span></p>
+		            </div>
+		            <?php echo get_the_content(); ?>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+<?php
+	endwhile; 
+get_footer(); ?>

@@ -12,3 +12,8 @@ License URI: LICENSE
 Text Domain: akiba-guild
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
+
+/*Additional CSS*/
+.right_content a{
+	color: #000;
+}
