@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
-   
-    <div id="main-banner">
+  <main class="scroller"> 
+    <div id="main-banner" class="test">
       <div class="banner-bg">
       </div><!--banner-bg-->
       <div class="container">
@@ -30,10 +30,10 @@ get_header(); ?>
     </div><!--main-banner-->
 
 
-    <div id="tab_content" class="wow animate__animated animate__fadeInLeft" data-wow-duration="1s">
+    <div id="tab_content">
       <div class="container-sm">
         <div class="row">
-          <div class="d-flex align-items-start">
+          <div class="d-flex align-items-start wow animate__animated animate__fadeInLeft" data-wow-duration="1s">
             <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
               <?php
                 $cnt=0;
@@ -248,7 +248,7 @@ get_header(); ?>
           </div><!-- row -->
         </div><!-- container-sm -->
       </div><!-- about_us -->
-  
+    </main>
 <?php
 get_footer(); ?>
 

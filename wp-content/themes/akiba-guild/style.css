@@ -24,3 +24,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 #guide_group .guide_content li:hover {
     transform: translateY(-15px) scale(1.01);
 }
+#main-banner .fullscreen-bg__video{
+	z-index: -999;
+}
+#guide_group,
+#about_us{
+	background: #FCFDFF;
+}

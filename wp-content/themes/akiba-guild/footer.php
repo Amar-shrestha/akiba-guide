@@ -79,7 +79,7 @@
         </div>
     </div>
 
-    <script>
+    <script type="text/javascript">
       new WOW().init();
     </script>
 

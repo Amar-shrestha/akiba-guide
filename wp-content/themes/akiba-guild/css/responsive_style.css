@@ -55,6 +55,8 @@ h3 {  font-size: 32px;}
 #main-footer .col-3 {width: 25%;}
 #about_us .wrapper .left_content {top: 50%;}
 #food_menu .menu_lists .menu_wrap { padding: 12px 20px;}
+#main-banner{min-height: auto;}
+#main-banner .fullscreen-bg__video{position: absolute;}
 
 }
 
@@ -139,6 +141,9 @@ h3 { font-size: 28px;}
 #performance { padding: 45px 0;}
 
 #part .part_content .right_content h6{text-align: center;line-height: 30px;}
+
+#main-banner{min-height: auto;}
+#main-banner .fullscreen-bg__video{position: absolute;}
 
 }
 
