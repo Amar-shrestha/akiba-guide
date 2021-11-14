@@ -17,3 +17,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .right_content a{
 	color: #000;
 }
+
+#guide_group .guide_content li{
+	transition: transform .3s;
+}
+#guide_group .guide_content li:hover {
+    transform: translateY(-15px) scale(1.01);
+}

@@ -143,6 +143,7 @@ add_action( 'widgets_init', 'akiba_guild_widgets_init' );
  */
 function akiba_guild_scripts() {
 	wp_enqueue_style( 'akiba-guild-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), _S_VERSION);
+	wp_enqueue_style( 'akiba-guild-animatecss', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' );
 	wp_enqueue_style( 'akiba-guild-fonts', get_template_directory_uri() . '/css/fonts.css', array(), _S_VERSION);
 	wp_enqueue_style( 'akiba-guild-main-style', get_template_directory_uri() . '/css/style.css', array(), _S_VERSION );
 	wp_enqueue_style( 'akiba-guild-responsive-style', get_template_directory_uri() . '/css/responsive_style.css', array(), _S_VERSION);
@@ -153,6 +154,7 @@ function akiba_guild_scripts() {
 
 	wp_enqueue_script( 'akiba-guild-ajaxjquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' );
 	wp_enqueue_script( 'akiba-guild-bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'akiba-guild-animatejs', 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js');
 	wp_enqueue_script( 'akiba-guild-commonjs', get_template_directory_uri() . '/js/common.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'akiba-guild-meanmenujs', get_template_directory_uri() . '/js/jquery.meanmenu.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'akiba-guild-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

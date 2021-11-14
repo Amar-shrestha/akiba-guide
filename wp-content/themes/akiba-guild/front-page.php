@@ -30,7 +30,7 @@ get_header(); ?>
     </div><!--main-banner-->
 
 
-    <div id="tab_content">
+    <div id="tab_content" class="wow animate__animated animate__fadeInLeft" data-wow-duration="1s">
       <div class="container-sm">
         <div class="row">
           <div class="d-flex align-items-start">
@@ -70,7 +70,7 @@ get_header(); ?>
             </div>
           </div>
           <div class="bottom_img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img1.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/img1.png" alt="" class="wow animate__animated animate__fadeInRight" data-wow-duration="1s" >
           </div>
         </div><!-- row -->
       </div><!-- container -->
@@ -81,7 +81,9 @@ get_header(); ?>
       <div class="container-sm">
         <div class="row">
           <div class="title">
-            <h2><?php echo get_field('build-group-heading'); ?></h2>
+            <h2 class="wow animate__animated animate__bounceIn" data-wow-duration="1s">
+              <?php echo get_field('build-group-heading'); ?>
+            </h2>
           </div><!-- title -->
           <div class="part_content">
             <div class="row">
@@ -93,7 +95,7 @@ get_header(); ?>
                 if($cnt == 1):
               ?>
               <div class="col-sm-12">
-                <div class="wrapper">
+                <div class="wrapper wow animate__animated animate__fadeInDown" data-wow-duration="1s">
                   <div class="left_content">
                     <h6>Part <?php echo $cnt; ?></h6>
                   </div><!-- left_content -->
@@ -118,7 +120,7 @@ get_header(); ?>
                 if($cnt > 1):
               ?>
               <div class="col-sm-6">
-                <div class="wrapper">
+                <div class="wrapper wow animate__animated animate__fadeInDown" data-wow-duration="1s">
                   <div class="left_content">
                     <h6>Part <?php echo $cnt; ?></h6>
                   </div><!-- left_content -->
@@ -144,9 +146,9 @@ get_header(); ?>
       <div class="container-sm">
         <div class="row">
           <div class="title">
-            <h2>Guild Group</h2>
+            <h2 class="wow animate__animated animate__bounceIn" data-wow-duration="1s">Guild Group</h2>
           </div>
-          <ul class="guide_content">
+          <ul class="guide_content wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
             <?php
               if( have_rows('home_guild_group') ):
                 while( have_rows('home_guild_group') ) : the_row();
@@ -172,9 +174,9 @@ get_header(); ?>
         <div class="container-sm">
           <div class="row">
             <div class="title">
-              <h3><?php echo get_cat_name(2); ?></h3>
+              <h3 class="wow animate__animated animate__bounceIn" data-wow-duration="1s" ><?php echo get_cat_name(2); ?></h3>
             </div>
-            <div class="blog_content">
+            <div class="blog_content wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
               <?php
 
                 $index = 0;
@@ -234,7 +236,7 @@ get_header(); ?>
       <div id="about_us">
         <div class="container-sm">
           <div class="row">
-            <div class="wrapper">
+            <div class="wrapper wow animate__animated animate__fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
               <div class="left_content">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/about_us.png" alt="">
               </div><!-- left_content -->
