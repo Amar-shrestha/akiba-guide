@@ -49,7 +49,7 @@ h6{ font-size: 24px;line-height: 30px;}
 #main-header .table-content{text-align: right;display: table-cell;vertical-align: middle;}
 #main-header .main-menu li{ list-style:none; display:inline-block; text-transform: uppercase;padding-right: 24px;}
 #main-header .main-menu li:last-child{ padding-right:0;}
-#main-header .main-menu li a{font-family: 'GothamBold';color: #FFE589;}
+#main-header .main-menu li a{font-family: 'GothamBold';color: #000;}
 #main-header .main-menu li a:hover{color:#ffa201;}
 
 /*************banner-section***********/
@@ -275,7 +275,7 @@ h6{ font-size: 24px;line-height: 30px;}
 
 /*******************schedule page *******************/
 
-#main-header.header2{position: relative;background: #9C0000;}
+#main-header.header2{position: relative;background: #fff;}
 #main-banner .banner_bg img{width:100%;}
 
 
