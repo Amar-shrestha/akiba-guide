@@ -31,3 +31,21 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 #about_us{
 	background: #FCFDFF;
 }
+.fullscreen-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.35);
+    height: 100%;
+    width: 100%;
+}
+.animation-text{
+	position: absolute;
+    top: 25%;
+    left: 8%;
+    height: 100%;
+    width: 75%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+}

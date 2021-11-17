@@ -20,6 +20,10 @@ get_header(); ?>
                   <?php endif; ?>
                 </video>
               </div>
+              <div class="animation-text">
+                <p>【アキバギルド】東京・秋葉原のメイドカジノ、かわいいメイド達とポーカーやブラックジャックを遊びましょう</p>
+                <p>アキバギルドは、東京・秋葉原のメイドカジノです。ポーカーやブラックジャックなどのトランプゲームに熱中したり色んな人と会話したり、遊び方は無限大です、ご堪能くださいませ!!</p>
+              </div>
               <div class="scroll_down">
                 <a href="#tab_content" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/btn-circle.png" alt=""></a>
               </div>
@@ -251,6 +255,4 @@ get_header(); ?>
     </main>
 <?php
 get_footer(); ?>
-
-<?phpcredits(); ?>
 
