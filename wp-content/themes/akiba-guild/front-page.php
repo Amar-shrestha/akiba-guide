@@ -21,8 +21,14 @@ get_header(); ?>
                 </video>
               </div>
               <div class="animation-text">
-                <p>【アキバギルド】東京・秋葉原のメイドカジノ、かわいいメイド達とポーカーやブラックジャックを遊びましょう</p>
-                <p>アキバギルドは、東京・秋葉原のメイドカジノです。ポーカーやブラックジャックなどのトランプゲームに熱中したり色んな人と会話したり、遊び方は無限大です、ご堪能くださいませ!!</p>
+                <p class="aboutus-heading">ABOUT US</p>
+                <p>アキバギルドへようこそ</p>
+                <p><span class="icon-spade"></span>1-11-6 Sotokanda, Chiyoda-ku, Tokyo Kogure Building 4F</p>
+                <p><span class="icon-spade"></span>【アキバギルド】東京・秋葉原のメイドカジノ、かわいいメイド達とポーカーやブラックジャックを遊びましょう</p>
+                <p><span class="icon-spade"></span>アキバギルドはカジノをイメージしたテーマパークキャストは一人ずつがアトラクションゲームに熱中したり会話を楽しんだり、遊び方は無限ですお楽しみ下さい</p>
+                <p><span class="icon-spade"></span>アキバギルドは、東京・秋葉原のメイドカジノです。ポーカーやブラックジャックなどのトランプゲームに熱中したり色んな人と会話したり、遊び方は無限大です、ご堪能くださいませ!!</p>
+                <p><span class="icon-spade"></span>アキバギルドはカジノをイメージしたテーマパーク。メイド1人ずつがアトラクション。ゲームに熱中したり色んな人と会話したり、遊び方は無限大です。ご堪能くださいませ!</p>
+
               </div>
               <div class="scroll_down">
                 <a href="#tab_content" class="scroll"><img src="<?php echo get_template_directory_uri(); ?>/images/btn-circle.png" alt=""></a>

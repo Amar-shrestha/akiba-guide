@@ -1,4 +1,4 @@
-	<?php
+<?php
 /**
  * akiba-guild functions and definitions
  *
